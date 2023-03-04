@@ -10,3 +10,5 @@ A Semi-Empirical Model (SEM) for predicting the capacity loss of Lithium-ion bat
 # Paper and conference presentation
 [Paper](https://drive.google.com/file/d/1_XF3AHhH7OotMk2cxfh0bj4TYo9XtvD7/view?usp=share_link) and [Presentation](https://drive.google.com/file/d/1Nuwq555htsr8aBe7mBM1xWdjWc5LwC5w/view?usp=share_link) contains the explanations of the utilized model and the used data. 
 
+## Requirements
+Tested on MATLAB 2021b, 2022a.
