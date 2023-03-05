@@ -24,11 +24,11 @@ load('Datasw2.mat')
 Data.time=Datasw.time;
 Data.SoC=(Datasw.SoC)/100;
 Data.I=Datasw.I;
-Data.T=Datasw.T+273.15; %Add 10 if you want to test in 35c 
+Data.T=Datasw.T+273.15+10; %Add 10 if you want to test in 35c 
 C_n=30;
-batt='LTO';
-N=2300;
-period=450;
+batt='LFP';
+N=1000;
+period=0;
 
 %% 
 [Loss_cap, Cap_cyc, Cap_cal]=semi_empirical_model(Data,N,period,batt,C_n);
