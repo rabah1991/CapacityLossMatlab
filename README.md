@@ -8,10 +8,16 @@ A Semi-Empirical Model (SEM) for predicting the capacity loss of Lithium-ion bat
 **Affiliation**: Turku University of Applied Sciences
 
 ## Paper and conference presentation
-[Paper](https://drive.google.com/file/d/1_XF3AHhH7OotMk2cxfh0bj4TYo9XtvD7/view?usp=share_link) and [Presentation](https://drive.google.com/file/d/1Nuwq555htsr8aBe7mBM1xWdjWc5LwC5w/view?usp=share_link) contains the explanations of the utilized model and the used data. 
+[CAPACITY LOSS ESTIMATION FOR LI-ION BATTERIES BASED ON A SEMI-EMPIRICAL MODEL](https://drive.google.com/file/d/1_XF3AHhH7OotMk2cxfh0bj4TYo9XtvD7/view?usp=share_link) and [Presentation](https://drive.google.com/file/d/1Nuwq555htsr8aBe7mBM1xWdjWc5LwC5w/view?usp=share_link) contains the explanations of the utilized model and the used data. 
 
 ## Requirements
 Tested on MATLAB 2021b, 2022a.
+
+## How to
+### Model explanation
+The model flowchart shown in the below figure is divided into two parts; Data selection and fitting process which will be added later to this repository, and data validation which would be our main focus for now. 
+
+<img src="https://drive.google.com/file/d/1Wg820SBTz3LikRA1P3FjM0MLx8lsmzL2/view?usp=share_link">
 
 
 
