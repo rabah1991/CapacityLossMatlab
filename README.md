@@ -28,9 +28,7 @@ $$A_h = FCE \cdot C_r = N \cdot DoD \cdot C_r$$
 Where $FCE$ is the full cycle equivalent, $C_r$ is the rated capacity.
 
 ### Model identification
-The process of model identification is divided into two parts; (a) Data Selection and Fitting, and (b) Model Validation. Data selection and fitting process is used to identify the following parameters $E, _{cyc}, _{cyc}, \alpha, R$
-
-which will be added later to this repository, and data validation which would be our main focus for now. 
+The process of model identification is divided into two parts; (a) Data Selection and Fitting, and (b) Model Validation. Data selection and fitting process is used to identify the following parameters $$E, _{cyc}, _{cyc}, \alpha, R$$ The .m files to identify these parameters will be added later to this repository. For now, data validation would be our main focus for now. 
 
 ![flowchart](flowchart.png)
 
