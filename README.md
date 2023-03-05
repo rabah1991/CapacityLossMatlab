@@ -32,6 +32,13 @@ The process of model identification is divided into two parts; (a) Data Selectio
 
 ![flowchart](flowchart.png)
 
-##
+## Model validation
+Three .mat files are used to validate our model. All three files containes the time, SoC, current I, and temperature. These data files are measure in 25c. Feel free to change the temperature, as the model is trained to estimate the $C{^{cyc}_{loss}}$ under diffrent degrees.
+
+**Datasw1.mat** : This is a data with median SoC = 15%, and SoC swing range = 5%
+**Datasw2.mat** : This is a data with median SoC = 50%, and SoC swing range = 45%
+**simulateddata.mat** : This is a data from a simulated duty cycle for a Mining Dumper.
+
+## How to run the file
 
 
