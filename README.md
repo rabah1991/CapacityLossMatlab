@@ -30,7 +30,7 @@ Where $FCE$ is the full cycle equivalent, $C_r$ is the rated capacity.
 ### Model identification
 The process of model identification is divided into two parts; (a) Data Selection and Fitting, and (b) Model Validation. Data selection and fitting process is used to identify the following parameters $$E, _{cyc}, _{cyc}, \alpha, R$$ The .m files to identify these parameters will be added later to this repository. For now, data validation would be our main focus for now. 
 
-![flowchart](Images\flowchart.png)
+![flowchart](Images/flowchart.png)
 
 ## Model validation
 Three .mat files are used to validate our model. All three files containes the time, SoC, current I, and temperature. These data files are measure in 25c. Feel free to change the temperature, as the model is trained to estimate the $C{^{cyc}_{loss}}$ under diffrent degrees.
