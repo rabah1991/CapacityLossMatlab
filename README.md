@@ -20,10 +20,11 @@ The general equation used to estimate the  capacity loss $C{^{cyc}_{loss}}$ is a
 
 $$C{^{cyc}_{loss}} = B_{cyc}(I)\cdot e^{-\frac{E + \alpha \cdot |I|}{R(T-T_{ref})}} \cdot A{^{z_{cyc}}_h}$$
 
-For Cycling  Aging, the $C_{loss}$ is mainly affected by current $I$, $T$ and number of cycles $N$. Furthermore, other parameters do have a margin effect depending on the temperature of the LIB, e.g. depth of discharge $DoD$, and the rated capacity. 
+For Cycling  Aging, the $C_{loss}$ is mainly affected by current $I$, $T$ and number of cycles $N$. Furthermore, other parameters do have a margin effect depending on the temperature of the LIB, e.g. depth of discharge $DoD$, and the rated capacity. $B_{cyc}$ is a pre-exponential factor which depends on cycling current $I$, $\alpha$ and $z_{cyc}$ are the fitting coefficients, and $A_h$ is the full used capacity that can be obtained using the following equation:
 
+$$A_h = FCE \cdot C_r = N \cdot DoD \cdot C_r$$
 
-
+Where $FCE$ is the full cycle equivalent, $C_r$ is the rated capacity.
 
 
 The model flowchart shown in the below figure is divided into two parts; Data selection and fitting process which will be added later to this repository, and data validation which would be our main focus for now. 
