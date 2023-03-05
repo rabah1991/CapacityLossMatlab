@@ -18,7 +18,7 @@ To test the feasibility of the proposed model, several LIB chemistries should be
 
 The equation for calculating the capacity loss during cycling aging is as follow: 
 
-$C{^{cyc}_{loss}} = B_{cyc}(I)\cdot e^{-\frac{E + \alpha \cdot |I|}{R(T-T_{ref})}} \cdot A{^{z_{cyc}}_h}$
+$$C{^{cyc}_{loss}} = B_{cyc}(I)\cdot e^{-\frac{E + \alpha \cdot |I|}{R(T-T_{ref})}} \cdot A{^{z_{cyc}}_h}$$
 
 $$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
 
