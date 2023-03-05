@@ -42,5 +42,18 @@ Three .mat files are used to validate our model. All three files containes the t
 **simulateddata.mat** : This is a data from a simulated duty cycle for a Mining Dumper.
 
 ## How to run the file
+The calculation of the SEM is implemented in **semi_empirical_model.m**. 
+
+Run **capacity_loss.m**. load the **Datasw1.mat**. The required information should be filled in the file as following:
+Requered information should be written as masive 
+     Data.time - time [s]
+     Data.SoC- battery state of charge from 0 to 1 [-]
+     Data.I - battery current [A]
+     Data.T - battery temperature [K]
+     C_n - rated capacity [Ah]
+     N - number of the cycle repetitions 
+     batt - Li-ion battery chemistry 
+     period - minimum storage period when calendar aging is considered [days]. This can be added as zero for now
+     
 
 
