@@ -1,5 +1,5 @@
 ## CapacityLossMatlab
-A Semi-Empirical Model (SEM) for predicting the capacity loss of Lithium-ion batteries during cycling aging is used. This project is published in 35th ECMS International Conference on Modelling and Simulation.
+A Semi-Empirical Model (SEM) for predicting the capacity loss of Lithium-ion batteries (LIBs) during cycling aging is used. This project is published in 35th ECMS International Conference on Modelling and Simulation.
 
 **This repository contains MATLAB files and data to predict the capacity loss using SEM**
 
@@ -13,10 +13,17 @@ A Semi-Empirical Model (SEM) for predicting the capacity loss of Lithium-ion bat
 ## Requirements
 Tested on MATLAB 2021b, 2022a.
 
-## How to
-### Model explanation
+## Model explanation
+To test the feasibility of the proposed model, several LIB chemistries should be evaluated. In this work, two different chemistries of LIBs have been chosen; Lithium Iron Phosphate (LFP) and Lithium-Titanate Oxide (LTO). These chemistries are among the primary candidates for modern heavy-duty battery electric vehicles (HDBEV) systems.
+
+The equation for calculating the capacity loss during cycling aging is as follow: $ C{^{cyc}_{loss}} = B_{cyc}(I) \cdot e^{-\frac{E + \alpha \cdot |I|}{R(T-T_{ref})}} \cdot A{^{z_{cyc}}_h} $
+
+
 The model flowchart shown in the below figure is divided into two parts; Data selection and fitting process which will be added later to this repository, and data validation which would be our main focus for now. 
 
 ![flowchart](flowchart.png)
+
+### Data validation
+For validating our data, 
 
 
