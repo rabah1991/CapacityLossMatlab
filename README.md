@@ -17,6 +17,6 @@ Tested on MATLAB 2021b, 2022a.
 ### Model explanation
 The model flowchart shown in the below figure is divided into two parts; Data selection and fitting process which will be added later to this repository, and data validation which would be our main focus for now. 
 
-![Screenshot](flowchart.png)
+            ![flowchart](flowchart.png)
 
 
