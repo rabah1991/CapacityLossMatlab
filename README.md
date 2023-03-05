@@ -16,7 +16,7 @@ Tested on MATLAB 2021b, 2022a.
 ## Model explanation
 To test the feasibility of the proposed model, several LIB chemistries should be evaluated. In this work, two different chemistries of LIBs have been chosen; Lithium Iron Phosphate (LFP) and Lithium-Titanate Oxide (LTO). These chemistries are among the primary candidates for modern heavy-duty battery electric vehicles (HDBEV) systems.
 
-The equation for calculating the capacity loss during cycling aging is as follow: $ C{^{cyc}_{loss}} = B_{cyc}(I) \cdot e^{-\frac{E + \alpha \cdot |I|}{R(T-T_{ref})}} \cdot A{^{z_{cyc}}_h} $
+The equation for calculating the capacity loss during cycling aging is as follow: $C{^{cyc}_{loss}} = B_{cyc}(I) \cdot e^{-\frac{E + \alpha \cdot |I|}{R(T-T_{ref})}} \cdot A{^{z_{cyc}}_h}$
 
 
 The model flowchart shown in the below figure is divided into two parts; Data selection and fitting process which will be added later to this repository, and data validation which would be our main focus for now. 
