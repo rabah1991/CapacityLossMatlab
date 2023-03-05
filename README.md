@@ -14,6 +14,7 @@ A Semi-Empirical Model (SEM) for predicting the capacity loss of Lithium-ion bat
 Tested on MATLAB 2021b, 2022a.
 
 ## Model explanation
+### SEM equation explanation
 To test the feasibility of the proposed model, several LIB chemistries should be evaluated. In this work, two different chemistries of LIBs have been chosen; Lithium Iron Phosphate (LFP) and Lithium-Titanate Oxide (LTO). These chemistries are among the primary candidates for modern heavy-duty battery electric vehicles (HDBEV) systems.
 
 The general equation used to estimate the  capacity loss $C{^{cyc}_{loss}}$ is as follow: 
@@ -26,12 +27,11 @@ $$A_h = FCE \cdot C_r = N \cdot DoD \cdot C_r$$
 
 Where $FCE$ is the full cycle equivalent, $C_r$ is the rated capacity.
 
-
+### Model flowchart
 The model flowchart shown in the below figure is divided into two parts; Data selection and fitting process which will be added later to this repository, and data validation which would be our main focus for now. 
 
 ![flowchart](flowchart.png)
 
-### Data validation
-For validating our data, 
+##
 
 
