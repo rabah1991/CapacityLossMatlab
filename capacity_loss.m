@@ -4,7 +4,6 @@
 % M.Rabah            
 % e3Power               
 % Matlab R2021a
-%Rabah
 
 clc; clear; close all;
 %% Load battery data
