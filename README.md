@@ -51,10 +51,13 @@ Data.SoC- battery state of charge from 0 to 1 [-]
 Data.I - battery current [A]
 Data.T - battery temperature [K]
 C_n - rated capacity [Ah]
-N - number of the cycle repetitions 
+N - number of the cycle repetitions % change this to see how much impact it have on the total loss
 batt - Li-ion battery chemistry 
 period - minimum storage period when calendar aging is considered [days]. This can be added as zero for now
 ````
      
-
-
+Run the script file, and you should have the total loss during cycling aging printed out
+````
+Total loss of the capacity  percents.
+Total loss of the capacity during cycling aging 1.22485 percents.
+````
