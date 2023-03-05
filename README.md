@@ -82,3 +82,8 @@ Total loss of the capacity during cycling aging 8.85143 percents.
 
 ## Offline prediction showcase
 Go to this [link](https://comea.turkuamk.fi/battery-aging-showcase/)
+Add the required information and check your results as the below images
+
+![showcase](Images/showcase.png)
+
+![results](Images/showcase_results.png)
