@@ -61,3 +61,15 @@ Run the script file, and you should have the total loss during cycling aging pri
 Total loss of the capacity  percents.
 Total loss of the capacity during cycling aging 1.22485 percents.
 ````
+
+## Some results
+````
+Data.time=Datasw.time;
+Data.SoC=(Datasw.SoC)/100;
+Data.I=Datasw.I;
+Data.T=Datasw.T+273.15+10; %Add 10 if you want to test in 35c 
+C_n=30;
+batt='LFP';
+N=5000;
+period=0;
+````
