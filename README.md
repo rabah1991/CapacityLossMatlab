@@ -17,7 +17,7 @@ Tested on MATLAB 2021b, 2022a.
 ### Model explanation
 The model flowchart shown in the below figure is divided into two parts; Data selection and fitting process which will be added later to this repository, and data validation which would be our main focus for now. 
 
-<img src="https://drive.google.com/file/d/1Wg820SBTz3LikRA1P3FjM0MLx8lsmzL2/view?usp=share_link">
+![alt text](https://github.com/rabah1991/CapacityLossMatlab/main/flowchart.png?raw=true)
 
 
 
